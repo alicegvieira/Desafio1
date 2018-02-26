@@ -27,14 +27,14 @@ File '/service/metabase.conf' contains essential configuration to run metabase a
 ###### Metabase service configuration
 File 'service/service.conf' contains the configuration to run metabase application as a service. The content is from metabase documentation with modifications
 
-## Deploy configuration details
-###### Deploy configuration
+## Deployment configuration details
+###### Deployment configuration
 File '/deploy/deploy.conf' contains essential configuration to run metabase application deployment script
 
-###### Deploy script
+###### Deployment script
 File '/deploy/deployscript.sh' contains the script to run metabase application deployment
 
-## Testing deployment details
+## Deployment details for testing
 **WARN: Do not need to change any configuration file to test the script in this enviroment**
 
 **WARN: The script expects that the new metabase release .jar it will be stored at '/release' path. If the script find more than 1 file at this path it will work with the latest one**
@@ -57,7 +57,7 @@ As the application is a service, it can be used the following commands to start,
 
 **INFO: If an unhandled error occurr during the installation step, it is recommended to check the service file at '/etc/init.d/metabase' and the official metabase log file at '/var/log/metabase.log' and then run the service uninstall to remove any created file during the process (the deployment script does not perfom uninstall because this step remove files that can be important to understand errors). After uninstall check if the metabase .jar it is at release path '/release' and run the deployment script again.** 
 
-## Testing following deployment (it will update the service)
+## Testing following deployments (it will update the service)
 - Copy the new application version file '/deploy/testefiles/metabase_1_2.jar' to release path '/release'
 - Run the script '/deploy/deployscript.sh' using sudo
 

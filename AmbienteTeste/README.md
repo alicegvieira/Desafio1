@@ -1,6 +1,6 @@
 Pelo ambiente requerer instalação de Mysql, servidor web Nginx e suas configurações, foi criado um ambiente de teste com todos os programas instalados e configurados.
 
-O ambiente de teste foi criado no programa VMWare player mas só depois descobri que essa versão não permite criar clone da máquina virtual, então a forma de clonar o ambiente é copiando e colando os arquivos da minha máquina virtual. Como os arquivos são muito grandes, não foi possível fazer upload dos mesmo no GitHub.
+O ambiente de teste foi criado no programa VMWare player mas só depois descobri que essa versão não permite criar clone da máquina virtual, então a forma de clonar o ambiente é copiando e colando os arquivos da máquina virtual. Como os arquivos são muito grandes, não foi possível fazer upload dos mesmo no GitHub.
 
 Para fazer download do ambiente de teste acesse:
 

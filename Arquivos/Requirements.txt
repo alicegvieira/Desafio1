@@ -1,0 +1,7 @@
+In order to metabase application run as a service it needs **nginx** and a supported database running, as described at metabase official documentation 'https://www.metabase.com/docs/latest/operations-guide/running-metabase-on-debian.html'
+
+This enviroment was configurated using **MySql** as database server
+Metabase database was created
+User 'deployuser' was created to run the service
+
+INFO Enviroment configurations can be modified at '/deploy/deploy.conf' and 'service/metabase.conf'

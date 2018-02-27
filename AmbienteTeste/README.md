@@ -4,5 +4,8 @@ O ambiente de teste foi criado no programa VMWare e como os arquivos são muito 
 
 Fazer download do ambiente de teste: (obs: os arquivos estavam muito grandes para fazer upload, tentei fazer compressão do arquivo porém não teve muita diferença, o arquivo final está com 5GB, estou esperando o upload do arquivo na nuvem para poder copiar o link de download aqui)
 
-Usuário para fazer login na máquina virtual: Ubunto senha:01141312
-Senha do usuario alicegvieira: 123
+**Credenciais para login na máquina virtual: User = Ubunto Password = 01141312**
+
+**Credenciais para utilizar no terminal: User = alicegvieira Password = 123**
+
+**Instruções para realizar o teste no ambiente: README2.md**

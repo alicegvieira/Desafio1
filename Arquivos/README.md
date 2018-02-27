@@ -22,17 +22,17 @@ Store files to configurate application service
 
 ## Service configuration details
 ###### Metabase configuration
-File '/service/metabase.conf' contains essential configuration to run metabase application. The content is from metabase documentation with modifications
+File '/service/metabase.conf' contains essential configuration to run metabase application. The content is from metabase documentation with modifications. If not using the Enviroment Teste, is important to configure the variables from the new enviroment 
 
 ###### Metabase service configuration
-File 'service/service.conf' contains the configuration to run metabase application as a service. The content is from metabase documentation with modifications
+File 'service/service.conf' contains the configuration to run metabase application as a service. The content is from metabase documentation with modifications. If not using the Enviroment Teste, is important to configure the variables from the new enviroment 
 
 ## Deployment configuration details
 ###### Deployment configuration
-File '/deploy/deploy.conf' contains essential configuration to run metabase application deployment script
+File '/deploy/deploy.conf' contains essential configuration to run metabase application deployment script. If not using the Enviroment Teste, is important to configure the variables from the new enviroment 
 
 ###### Deployment script
-File '/deploy/deployscript.sh' contains the script to run metabase application deployment
+File '/deploy/deployscript.sh' contains the script to run metabase application deployment. If not using the Enviroment Teste, is important to update the path at the beggining of this file, when loading the source at: 'source "/alice/desafio1/deploy/deploy.conf"'.
 
 ## Deployment details for testing
 **WARN: Do not need to change any configuration file to test the script in this enviroment**
